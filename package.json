@@ -1,0 +1,23 @@
+{
+  "name": "react-native-android-installed-apps-custom",
+  "version": "1.0.0",
+  "description": "## Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uit2712/react-native-android-installed-apps-custom.git"
+  },
+  "keywords": [
+    "install-apps"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uit2712/react-native-android-installed-apps-custom/issues"
+  },
+  "homepage": "https://github.com/uit2712/react-native-android-installed-apps-custom#readme"
+}
