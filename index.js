@@ -100,6 +100,7 @@ export function getSystemApps() {
 /**
  *
  * @param {string} packageName
+ * @returns {Promise<string>}
  */
 export function openApp(packageName) {
   return new Promise((resolve, reject) => {
