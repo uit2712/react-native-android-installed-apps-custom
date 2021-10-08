@@ -121,12 +121,12 @@ public class RNAndroidInstalledAppsModule extends ReactContextBaseJavaModule {
   public void openApp(String packageName, final Promise promise) {
     Intent sendIntent = this.reactContext.getPackageManager().getLaunchIntentForPackage(packageName);
     if (sendIntent == null) {
-      promise.reject("App not found!");
+      promise.reject("Cannot open app.");
       return;
     }
 
     sendIntent.addCategory(Intent.CATEGORY_LAUNCHER);
     this.reactContext.startActivity(sendIntent);
-    promise.resolve("Open app success");
+    promise.resolve("Open app success.");
   }
 }
