@@ -1,6 +1,6 @@
 {
-  "name": "react-native-android-installed-apps-custom",
-  "version": "1.0.0",
+  "name": "@uit2712/react-native-android-installed-apps-custom",
+  "version": "1.1.0",
   "description": "## Getting started",
   "main": "index.js",
   "scripts": {

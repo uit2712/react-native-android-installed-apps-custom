@@ -96,3 +96,17 @@ export function getSystemApps() {
       .catch((error) => reject(error));
   });
 }
+
+/**
+ *
+ * @param {string} packageName
+ */
+export function openApp(packageName) {
+  return new Promise((resolve, reject) => {
+    RNAndroidInstalledApps.openApp(packageName)
+      .then((message) => {
+        resolve(message);
+      })
+      .catch((error) => reject(error));
+  });
+}
